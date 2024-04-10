@@ -1,0 +1,21 @@
+name: Docker Image CI
+
+on:
+  release:
+    types: [published]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: whoan/docker-build-with-cache-action@master
+      with:
+        username: "${{ secrets.DOCKERHUB_USERNAME }}"  
+        password: "${{ secrets.DOCKERHUB_PASSWORD }}"  
+        image_name: pmip4_iovar
+        push_git_tag: true
+        push_image_and_stages: true

@@ -1,0 +1,8 @@
+MODE,midHolocene,lgm,lig127k,midPliocene-eoi400,midHolocene-cal-adj,lgm-cal-adj,lig127k-cal-adj,1pctCO2,abrupt4xCO2 
+nino34, 0.85, 1.04, 0.69,-999.00, 0.85, 0.99, 0.67, 1.19, 1.11
+iod_timeseries_mon, 0.91, 1.10, 1.02,-999.00, 0.91, 1.11, 0.99, 0.89, 0.80
+tropical_indian_ocean, 0.94, 1.13, 0.88,-999.00, 0.93, 1.11, 0.88, 0.98, 0.98
+north_tropical_atlantic, 0.94, 1.36, 0.93,-999.00, 0.94, 1.37, 0.93, 0.97, 1.01
+east_eq_indian_ocean, 1.17, 1.10, 1.53,-999.00, 1.21, 1.08, 1.53, 1.21, 1.12
+tas_spatialmean_ann, 0.96, 0.16, 1.03,-999.00, 1.02, 0.16, 1.09, 2.29, 2.81
+pr_spatailmean_ann,-999.00,-999.00,-999.00,-999.00,-999.00,-999.00,-999.00,-999.00,-999.00
